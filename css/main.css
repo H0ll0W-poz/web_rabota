@@ -14,3 +14,52 @@ header{
 .logo{
     width: 150px;
 }
+
+.sec4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imag1{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: 10px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.imag2{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: 10px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.imag3{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: 10px;
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+.imag4{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: block;
+    border-radius: 10px;
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
