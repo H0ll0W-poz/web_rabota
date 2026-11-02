@@ -1,0 +1,18 @@
+.yz{
+    width: 500px;
+    height: 100px;
+    border: 3px solid blue;
+    border-radius: 15px;
+}
+.kx{
+    width: 100px;
+    height: 500px;
+    border: 3px solid green;
+    border-radius: 15px;
+}
+.cr{
+    width: 500px;
+    height: 500px;
+    border: 3px solid red;
+    border-radius: 15px;
+}

@@ -1,0 +1,9 @@
+.yz:hover{
+    transform: scale(1.1);
+}
+.kx:hover{
+    transform: rotate(5deg);
+}
+.cr:hover{
+    filter: brightness(50%);
+}
