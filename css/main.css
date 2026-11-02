@@ -63,3 +63,8 @@ header{
     grid-column: 1 / 3;
     grid-row: 2;
 }
+
+.shrek{
+    border: 3px solid green;
+    border-radius: 10px;
+}
