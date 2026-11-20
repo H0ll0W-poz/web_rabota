@@ -3,6 +3,7 @@ def seek():
 	move(North)
 	for i in range(get_world_size()):
 			dig()
+			move(North)
 	
 	dig()
 while True:
